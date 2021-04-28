@@ -1,4 +1,4 @@
-# Mixing Windows and Linux workloads in Openshift Demo
+# Mixing Windows and Linux workloads in Openshift 4 Demo
 In this demo, we will create two container apps (crossplat-app) in both a Windows node and a Linux node. We will expose an API endpoint and validate that they can reach each other once both deployed. 
 
 
@@ -15,7 +15,7 @@ Validate the route works and the Linux endpoint cannot be reached (should be exp
 ## 2. Create crossplat-app-linux app in Openshift (using GUI)
 
 - Developer Mode
-- Add > From Container Image 
+- Add > From Container Image (using Quay)
 ```
 Image name from external registry: https://quay.io/fabdulkh/crossplat-test-linux
 Application: Create Application

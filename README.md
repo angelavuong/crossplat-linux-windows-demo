@@ -1,3 +1,6 @@
+# Mixing Windows and Linux workloads in Openshift Demo
+In this demo, we will create two container apps (crossplat-app) in both a Windows node and a Linux node. We will expose an API endpoint and validate that they can reach each other once both deployed. 
+
 
 ## 1. Deploy crossplat-app-windows app in OpenShift (using CLI)
 ```

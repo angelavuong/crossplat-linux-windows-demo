@@ -23,8 +23,8 @@ Deployment / Environment Variables:
 Name/Value: ASPNETCORE_URLS / http://*:8080
 Name/Value: FetchUrl / http://crossplat-app-windows:8081/?handler=data
 ```
-Create container image
+- Create container image
 
 ## 3. Validate the endpoints are reachable from both sides (Linux and Windows)
 
-Both crossplat-apps from Linux and Windows containers should reach each other's endpoints. 
+- Both crossplat-apps from Linux and Windows containers should reach each other's endpoints. 
